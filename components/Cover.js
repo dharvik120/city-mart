@@ -24,7 +24,7 @@ const MyComponent = () => {
         "token": "0x5574e3d98c9cb8db506bdcb098fc2faf34a14929",
         "presaleContract": "0x5574e3d98c9Cb8dB506bDcB098fc2fAf34A14929",
         "contractABI": "",
-        "tokenIconURL": "http://localhost:3000/kredict-k.png",
+        "tokenIconURL": "https://citymarttoken.com/kredict-k.png",
         "tokenName": "CITY MART",
         "tokenSymbol": "CTMT",
         "tokenForPresaleInitial": "2",
