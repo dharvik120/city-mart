@@ -1,0 +1,99 @@
+.navWrapper{
+    width: 100%;
+    padding: 10px 0px;
+    background: rgba(0, 0, 20, 0.9);
+    top: 0;
+    position: fixed;
+    border-bottom: 1px solid rgba(50, 50, 50, 0.5);
+    z-index: 40;
+}
+.navbar{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoSection{
+    flex: 1;
+}
+.logoText{
+    font-size: 30px;
+    font-family: "Kanit";
+    margin: 0;
+    padding: 0%;
+    color: rgb(235, 235, 235);
+}
+.logoImage{
+    height: 30px;
+}
+.menuSection{
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding-right: 25px;
+    border-right: 1px solid rgb(47, 47, 47);
+}.menuItem{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.menuItem:hover{
+    color: rgb(255, 180, 60);
+}
+.connectBtn{
+    margin-left: 25px;
+    background: rgb(255, 180, 60);
+    padding: 4px 12px;
+    color: black;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Kanit";
+    transition: 0.2s ease-out;
+}
+.connectBtn:hover{
+    background: rgb(255, 164, 17);
+    box-shadow: 0px 0px 5px rgb(255, 180, 60);
+}
+
+@media(max-width:900px){
+    .navbar{
+        width: 95%;
+    }
+    .menuSection{
+        flex: 2.5;
+    }
+    .menu{
+        padding-right: 10px;
+    }
+    .connectBtn{
+        margin-left: 10px;
+    }
+}
+@media(max-width:650px){
+    .menu{
+        display: none;
+    }
+    .menuSection{
+        flex: 1;
+        justify-content: flex-end;
+    }
+    .logoText{
+        font-size: 24px;
+    }
+    .connectBtn{
+        padding: 3px 10px;
+    }
+}
+
