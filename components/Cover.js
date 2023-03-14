@@ -785,9 +785,7 @@ const MyComponent = () => {
 
                     <h2 className={styles.header}>CITY MART ICO</h2>
                     <h4 className={styles.tag}>
-                    CITY MART is a decentralized launchpad that allows users to launch 
-                    their token and create their initial token sale with staking benefits 
-                    to their holders and they don&apos;t require any Coding Knowledge For this. 
+                    City Mart Token The Best Crypto Currency to Invest in The World. Time to Invest in Crypto Currency. City Mart Token (CTMT) is  Transactional token and can used as a Currency. City Mart Token Can be used for Online Shopping at Super Market all Over the World. City Mart Token is a BEP-20 Cypto Token build on The Binnance Block Chain Technology. 
                     </h4>
 
                     <div className={styles.actionWrapper}>
