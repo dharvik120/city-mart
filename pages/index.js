@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>CITY MART</title>
         <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"></link>
-        <meta name="description" content="City Mart Token The Best Crypto Currency to Invest in The World. Time to Invest in Crypto Currency. City Mart Token (CTMT) is  Transactional token and can used as a Currency. City Mart Token Can be used for Online Shopping at Super Market all Over the World. City Mart Token is a BEP-20 Cypto Token build on The Binnance Block Chain Technology." />
+        <meta name="description" content="TEST" />
         <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
